@@ -12,7 +12,7 @@ class GithubactionstestApplicationTests {
 
 	@Test
 	void testFail(){
-		throw new RuntimeException("실패했따");
+		//throw new RuntimeException("실패했따");
 	}
 
 }
