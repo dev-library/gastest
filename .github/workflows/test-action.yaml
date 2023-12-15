@@ -20,6 +20,9 @@ jobs:
           distribution: temurin
           cache: gradle
 
+      - name: secrets test
+        run : echo secrets value 00 ${{ secrets.TEST_VALUE }}
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
